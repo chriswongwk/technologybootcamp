@@ -133,9 +133,7 @@ All of these clusters are located in U.S. and you may access it through a HTML 5
 .. note::
 
   The VDI login credential is unique to each individuals and do not kick other people out of their session.
-  https://citrixready.nutanix.com - *Accessible via HTML5*
-  Or, 
-  https://hostedpoc.nutanix.com - *Accessible via HTML5*
+  https://citrixready.nutanix.com  Or  https://hostedpoc.nutanix.com - *Accessible via HTML5*
 
 
 
@@ -144,31 +142,111 @@ All of these clusters are located in U.S. and you may access it through a HTML 5
   :header-rows: 1
   
   * - Seat Number 
-    - Cluster ID
+    - Cluster Name
     - VDI login
     - VDI password
   * - 1
-    - POC-041
+    - POC041
     - POC041-User01
     - partnerSE/4u
   * - 2
-    - POC-041
+    - POC041
     - POC041-User02
     - partnerSE/4u     
   * - 3
-    - POC-041
+    - POC041
     - POC041-User03
     - partnerSE/4u    
   * - 4
-    - POC-041
+    - POC041
     - POC041-User04
     - partnerSE/4u
   * - 5
-    - POC-041
+    - POC041
     - POC041-User05
     - partnerSE/4u
+  * - 6
+    - POC044
+    - POC044-User01
+    - partnerSE/4u
+  * - 7
+    - POC044
+    - POC044-User02
+    - partnerSE/4u  
+  * - 8
+    - POC044
+    - POC044-User03
+    - partnerSE/4u
+  * - 9
+    - POC044
+    - POC044-User04
+    - partnerSE/4u    
+  * - 10
+    - POC044
+    - POC044-User05
+    - partnerSE/4u    
+  * - 11
+    - POC045
+    - POC045-User01
+    - partnerSE/4u    
+  * - 12
+    - POC045
+    - POC045-User02
+    - partnerSE/4u        
+  * - 13
+    - POC045
+    - POC045-User03
+    - partnerSE/4u        
+  * - 14
+    - POC045
+    - POC045-User04
+    - partnerSE/4u        
+  * - 15
+    - POC045
+    - POC045-User05
+    - partnerSE/4u         
+  * - 16
+    - POC046
+    - POC046-User01
+    - partnerSE/4u       
+  * - 17
+    - POC046
+    - POC046-User02
+    - partnerSE/4u       
+  * - 18
+    - POC046
+    - POC046-User03
+    - partnerSE/4u       
+  * - 19
+    - POC046
+    - POC046-User04
+    - partnerSE/4u      
+  * - 20
+    - POC046
+    - POC046-User05
+    - partnerSE/4u       
+  * - 21
+    - POC048
+    - POC048-User01
+    - partnerSE/4u      
+  * - 22
+    - POC048
+    - POC048-User02
+    - partnerSE/4u    
+  * - 23
+    - POC048
+    - POC048-User03
+    - partnerSE/4u    
+  * - 24
+    - POC048
+    - POC048-User04
+    - partnerSE/4u    
+  * - 25
+    - POC048
+    - POC048-User05
+    - partnerSE/4u    
 
-
+    
 Networking
 ..........
 
