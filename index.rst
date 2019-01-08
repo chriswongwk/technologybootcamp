@@ -140,33 +140,33 @@ All of these clusters are located in U.S. and you may access it through a HTML 5
 
 
 .. list-table::
-  :widths: 10 25 10 40
+  :widths: 10 10 20 20
   :header-rows: 1
   
-   * - Seat Number 
-     - Cluster ID
-     - VDI login
-     - VDI password
-   * - 1
-     - POC-041
-     - POC041-User01
-     - partnerSE/4u
-   * - 2
-     - POC-041
-     - POC041-User02
-     - partnerSE/4u     
-   * - 3
-     - POC-041
-     - POC041-User03
-     - partnerSE/4u    
-   * - 4
-     - POC-041
-     - POC041-User04
-     - partnerSE/4u
-   * - 5
-     - POC-041
-     - POC041-User05
-     - partnerSE/4u
+  * - Seat Number 
+    - Cluster ID
+    - VDI login
+    - VDI password
+  * - 1
+    - POC-041
+    - POC041-User01
+    - partnerSE/4u
+  * - 2
+    - POC-041
+    - POC041-User02
+    - partnerSE/4u     
+  * - 3
+    - POC-041
+    - POC041-User03
+    - partnerSE/4u    
+  * - 4
+    - POC-041
+    - POC041-User04
+    - partnerSE/4u
+  * - 5
+    - POC-041
+    - POC041-User05
+    - partnerSE/4u
 
 
 Networking
