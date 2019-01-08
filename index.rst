@@ -46,8 +46,8 @@
   :hidden:
 
   authentication/authentication
-  
-
+  ssp/ssp
+ 
 
 .. toctree::
   :maxdepth: 2
@@ -61,7 +61,7 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Optional Flow Lab
+  :caption: Advanced level - Flow Lab
   :name: _optional_flow_lab
   :hidden:
 
@@ -74,7 +74,7 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Optional Calm Lab
+  :caption: Advanced level - Calm Lab
   :name: _optional_calm_lab
   :hidden:
 
