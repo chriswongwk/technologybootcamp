@@ -104,45 +104,70 @@
 Getting Started
 ---------------
 
-Welcome to the Nutanix Technology Bootcamp! This workbook accompanies an instructor-led session that introduces Nutanix technologies and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
+Welcome to the Nutanix .Next On Tour Hong Kong Hands-on Lab Session. Let's get your hands dirty !
 
-At the end of the bootcamp, attendees should understand the basic concepts and technologies that make up the Nutanix Enterprise Cloud stack and should be well prepared for a hosted or onsite proof-of-concept (POC) engagement.
-
-What's New
-++++++++++
-
-- Workshop updated for the following software versions:
-    - AOS & PC 5.8.1
-
-- Optional Lab Updates:
-    - Calm
-    - Flow
+This workbook introduces Nutanix technologies and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. At the end of this hands-on workshop, attendees should understand the basic concepts and advanced technologies that make up the Nutanix Enterprise Cloud stack.
 
 Agenda
 ++++++
 
-- Introductions
-- Nutanix Technology Overview
-- Nutanix Configuration Labs
-- Deploying and Managing Workloads
-- Monitoring and Managing the Environment
+- Workshop updated for the following software versions:
+    - AOS & PC 5.9.2
 
-Introductions
+- Entry level labs
+    - Nutanix Configuration 
+    - Deploying and Managing Workloads
+    - Monitoring and Managing the Environment
+
+- Advanced level labs
+    - Self Service Portal
+    - Files
+    - Flow (Micro-segmentation)
+    - Calm (Multi-clouds automation)
+    
+How to Access
 +++++++++++++
 
-- Name
-- Familiarity with Nutanix
+All of these clusters are located in U.S. and you may access it through a HTML 5 broswer using VDI.
 
-Initial Setup
-+++++++++++++
+.. note::
 
-- Take note of the *Passwords* being used.
-- Log into your virtual desktops (connection info below)
+  The VDI login credential is unique to each individuals and do not kick other people out of their session.
+  https://citrixready.nutanix.com - *Accessible via HTML5*
+  Or, 
+  https://hostedpoc.nutanix.com - *Accessible via HTML5*
 
-Environment Details
-+++++++++++++++++++
 
-Nutanix Workshops are intended to be run in the Nutanix Hosted POC environment. Your cluster will be provisioned with all necessary images, networks, and VMs required to complete the exercises.
+
+.. list-table::
+  :widths: 10 25 10 40
+  :header-rows: 1
+  
+   * - Seat Number 
+     - Cluster ID
+     - VDI login
+     - VDI password
+   * - 1
+     - POC-041
+     - POC041-User01
+     - partnerSE/4u
+   * - 2
+     - POC-041
+     - POC041-User02
+     - partnerSE/4u     
+   * - 3
+     - POC-041
+     - POC041-User03
+     - partnerSE/4u    
+   * - 4
+     - POC-041
+     - POC041-User04
+     - partnerSE/4u
+   * - 5
+     - POC-041
+     - POC041-User05
+     - partnerSE/4u
+
 
 Networking
 ..........
@@ -152,11 +177,6 @@ Hosted POC clusters follow a standard naming convention:
 - **Cluster Name** - POC\ *XYZ*
 - **Subnet** - 10.**21**.\ *XYZ*\ .0
 - **Cluster IP** - 10.**21**.\ *XYZ*\ .37
-
-If provisioned from the marketing pool:
-- **Cluster Name** - MKT\ *XYZ*
-- **Subnet** - 10.**20**.\ *XYZ*\ .0
-- **Cluster IP** - 10.**20**.\ *XYZ*\ .37
 
 For example:
 
@@ -214,16 +234,16 @@ Credentials
      - Password
    * - Prism Element
      - admin
-     - *<Cluster Password>*
+     - partnerSE/4u
    * - Prism Central
      - admin
-     - *<Cluster Password>*
+     - partnerSE/4u
    * - Controller VM
      - nutanix
-     - *<Cluster Password>*
+     - partnerSE/4u
    * - Prism Central VM
      - nutanix
-     - *<Cluster Password>*
+     - partnerSE/4u
 
 Each cluster has a dedicated domain controller VM, **DC**, responsible for providing AD services for the **NTNXLAB.local** domain. The domain is populated with the following Users and Groups:
 
@@ -264,22 +284,3 @@ https://citrixready.nutanix.com - *Accessible via the Citrix Receiver client or 
 
 **Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
 
-Employee Pulse Secure VPN
-..........................
-
-https://sslvpn.nutanix.com - Use your CORP credentials
-
-Non-Employee Pulse Secure VPN
-..............................
-
-https://lab-vpn.nutanix.com - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
-
-Under **Client Application Sessions**, click **Start** to the right of **Pulse Secure** to download the client.
-
-Install and open **Pulse Secure**.
-
-Add a connection:
-
-- **Type** - Policy Secure (UAC) or Connection Server
-- **Name** - HPOC VPN
-- **Server URL** - lab-vpn.nutanix.com
