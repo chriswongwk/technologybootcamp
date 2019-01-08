@@ -8,17 +8,10 @@
 
   what_is_nutanix/what_is_nutanix
   nutanix_terminology/nutanix_terminology
-  
+ 
 .. toctree::
   :maxdepth: 2
-  :caption: Entry level Labs
-  :name: _entry_level_lab
-  :hidden:
-
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Nutanix Configuration Labs
+  :caption: Entry level - Nutanix Configuration Labs
   :name: _nutanix_configuration_labs
   :hidden:
 
@@ -28,18 +21,18 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Deploying and Managing Workloads
+  :caption: Entry level - Deploying and Managing Workloads
   :name: _deploying_and_managing_workloads
   :hidden:
 
-  backup_and_dr/backup_and_dr
+  backup_and_dr/backup_and_dr(Read Only)
   lab_deploy_workloads/lab_deploy_workloads
   lab_manage_workloads/lab_manage_workloads
   lab_data_protection/lab_data_protection
 
 .. toctree::
   :maxdepth: 2
-  :caption: Monitoring and Managing the Environment
+  :caption: Entry level - Monitoring and Managing the Environment
   :name: _monitoring_and_managing_the_environment
   :hidden:
 
@@ -48,20 +41,21 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Optional Labs
+  :caption: Advanced level - Self Service Portal
   :name: _optional_labs
   :hidden:
 
   authentication/authentication
-  files_deploy/files_deploy
-  calm_enable/calm_enable
+  
+
 
 .. toctree::
   :maxdepth: 2
-  :caption: Optional Files Labs
+  :caption: Advanced level - Files
   :name: _optional_files_labs
   :hidden:
   
+  files_deploy/files_deploy
   files_smb_share/files_smb_share
   files_nfs_export/files_nfs_export
 
@@ -85,6 +79,7 @@
   :hidden:
 
   what_is_calm/what_is_calm
+  calm_enable/calm_enable
   calm_projects/calm_projects
   calm_sshkey_creation/calm_sshkey_creation
   calm_mysql_blueprint/calm_mysql_blueprint
