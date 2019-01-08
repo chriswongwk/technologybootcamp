@@ -106,7 +106,13 @@ Getting Started
 
 Welcome to the Nutanix .Next On Tour Hong Kong Hands-on Lab Session. Let's get your hands dirty !
 
-This workbook introduces Nutanix technologies and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. At the end of this hands-on workshop, attendees should understand the basic concepts and advanced technologies that make up the Nutanix Enterprise Cloud stack.
+**Open Time:** 12:45 pm - 3:00 pm
+
+This workbook introduces Nutanix technologies and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. By Attending, you will:
+
+- understand the **basic concepts** and **advanced technologies** that make up the Nutanix Enterprise Cloud stack.
+- Get a souvenir  by completing an advanced level lab or two entry level labs
+- Stand a chance to win an DJI Trello at the Hands-on Lab Lucky Draw at **3:00 pm**.
 
 Agenda
 ++++++
