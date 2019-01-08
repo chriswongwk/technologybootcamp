@@ -2,12 +2,19 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Technology Overview
+  :caption: Technology Overview (Read Only)
   :name: _technology_overview
   :hidden:
 
   what_is_nutanix/what_is_nutanix
   nutanix_terminology/nutanix_terminology
+  
+.. toctree::
+  :maxdepth: 2
+  :caption: Entry level Labs
+  :name: _entry_level_lab
+  :hidden:
+
 
 .. toctree::
   :maxdepth: 2
