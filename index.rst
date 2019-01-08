@@ -124,6 +124,11 @@ Agenda
     - Files
     - Flow (Micro-segmentation)
     - Calm (Multi-clouds automation)
+
+.. note::
+
+  Some sub-tasks are "deploy" or "enable", which can only be performed once. You may just take a look of our "one-click-deploy" design philosophy and proceed to the next tasks.
+    
     
 How to Access
 +++++++++++++
@@ -246,9 +251,11 @@ All of these clusters are located in U.S. and you may access it through a HTML 5
     - POC048-User05
     - partnerSE/4u    
 
-    
-Networking
-..........
+
+
+After you have logged into the VDI ...
+++++++++++++++++++++++++++++++++++++++
+
 
 Hosted POC clusters follow a standard naming convention:
 
@@ -348,17 +355,5 @@ Each cluster has a dedicated domain controller VM, **DC**, responsible for provi
      - basicuser01-basicuser25
      - nutanix/4u
 
-Access Instructions
-+++++++++++++++++++
 
-The Nutanix Hosted POC environment can be accessed a number of different ways:
-
-Citrix XenDesktop
-.................
-
-https://citrixready.nutanix.com - *Accessible via the Citrix Receiver client or HTML5*
-
-**Nutanix Employees** - Use your NUTANIXDC credentials
-
-**Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
 
